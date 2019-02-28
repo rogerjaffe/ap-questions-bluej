@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=Digits(int)
+comment0.text=\ Constructs\ a\ Digits\ object\ that\ represents\ num.\n\ \ Precondition\:\ num\ >\=\ 0\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\ Or\ take\ care\ of\ num\ \=\ 0\ first\:\n\n\ \ public\ Digits(int\ num)\n\ \ {\n\ \ \ \ digitList\ \=\ new\ ArrayList<Integer>();\n\n\ \ \ \ if\ (num\ \=\=\ 0)\n\ \ \ \ {\n\ \ \ \ \ \ digitList.add(0);\n\ \ \ \ \ \ return;\n\ \ \ \ }\n\n\ \ \ \ while\ (num\ >\ 0)\n\ \ \ \ {\n\ \ \ \ \ \ digitList.add(0,\ num\ %\ 10);\n\ \ \ \ \ \ num\ /\=\ 10;\n\ \ \ \ }\n\ \ }\n\n\ \ Or\ use\ a\ do-while\ loop\:\n\n\ \ public\ Digits(int\ num)\n\ \ {\n\ \ \ \ digitList\ \=\ new\ ArrayList<Integer>();\n\ \ \ \ do\n\ \ \ \ {\n\ \ \ \ \ \ digitList.add(0,\ num\ %\ 10);\n\ \ \ \ \ \ num\ /\=\ 10;\n\ \ \ \ }\ while\ (num\ >\ 0);\n\ \ }\n\n
+comment2.params=
+comment2.target=boolean\ isStrictlyIncreasing()
+comment2.text=\ Returns\ true\ if\ the\ digits\ in\ this\ Digits\ object\ are\ in\ strictly\ increasing\ order;\n\ \ false\ otherwise.\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

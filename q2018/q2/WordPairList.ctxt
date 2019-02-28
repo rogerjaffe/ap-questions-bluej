@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=words
+comment0.target=WordPairList(java.lang.String[])
+comment0.text=\ Constructs\ a\ WordPairList\ object\ as\ described\ in\ part\ (a).\n\ \ Precondition\:\ words.length\ >\=\ 2\n
+comment1.params=
+comment1.target=int\ numMatches()
+comment1.text=\ Returns\ the\ number\ of\ matches\ as\ described\ in\ part\ (b).\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=Test\ ************************
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

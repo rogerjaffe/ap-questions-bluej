@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=isBlack\ num
+comment0.target=Square(boolean,\ int)
+comment0.text=\ Constructs\ one\ square\ of\ a\ crossword\ puzzle\ grid.\n\ Postcondition\:\n\ -\ The\ square\ is\ black\ if\ and\ only\ if\ \ isBlack\ is\ \ true.\n\ -\ The\ square\ has\ number\ \ num.\n
+comment1.params=
+comment1.target=boolean\ getIsBlack()
+comment2.params=
+comment2.target=int\ getNumber()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

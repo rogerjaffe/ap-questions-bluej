@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SparseArray()
+comment0.text=Constructs\ and\ empty\ sparse\ array.
+comment1.params=
+comment1.target=int\ getNumRows()
+comment1.text=Returns\ the\ number\ of\ rows\ in\ the\ sparse\ array.
+comment2.params=
+comment2.target=int\ getNumCols()
+comment2.text=Returns\ the\ number\ of\ columns\ in\ the\ sparse\ array.
+comment3.params=row\ col
+comment3.target=int\ getValueAt(int,\ int)
+comment4.params=col
+comment4.target=void\ removeColumn(int)
+comment5.params=rows\ cols
+comment5.target=SparseArray(int,\ int)
+comment5.text=
+comment6.params=row\ col\ value
+comment6.target=void\ add(int,\ int,\ int)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=Phrase(java.lang.String)
+comment0.text=Constructs\ a\ new\ Phrase\ object.
+comment1.params=str\ n
+comment1.target=int\ findNthOccurrence(java.lang.String,\ int)
+comment1.text=\ Returns\ the\ index\ of\ the\ nth\ occurrence\ of\ str\ in\ the\ current\ phrase;\n\ \ returns\ -1\ if\ the\ nth\ occurrence\ does\ not\ exist.\n\ \ Precondition\:\ str.length()\ >\ 0\ and\ n\ >\ 0\n\ \ Postcondition\:\ the\ current\ phrase\ is\ not\ modified.\n
+comment2.params=str\ n\ repl
+comment2.target=void\ replaceNthOccurrence(java.lang.String,\ int,\ java.lang.String)
+comment2.text=\ Modifies\ the\ current\ phrase\ by\ replacing\ the\ nth\ occurrence\ of\ str\ with\ repl.\n\ If\ the\ nth\ occurrence\ does\ not\ exist,\ the\ current\ phrase\ is\ unchanged.\n\ Precondition\:\ str.length()\ >\ 0\ and\ n\ >\ 0\n
+comment3.params=str
+comment3.target=int\ findLastOccurrence(java.lang.String)
+comment3.text=\ Returns\ the\ index\ of\ the\ last\ occurrence\ of\ str\ in\ the\ current\ phrase;\n\ \ returns\ -1\ if\ str\ is\ not\ found.\n\ \ Precondition\:\ str.length()\ >\ 0\n\ \ Postcondition\:\ the\ current\ phrase\ is\ not\ modified.\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=Returns\ a\ string\ containing\ the\ current\ phrase.
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
