@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=threshold
+comment0.target=int\ nextTankToFill(int)
+comment0.text=\ Determines\ and\ returns\ the\ index\ of\ the\ next\ tank\ to\ be\ filled.\n\ \ @param\ threshold\ fuel\ tanks\ with\ a\ fuel\ level\ <\=\ threshold\ may\ be\ filled\n\ \ @return\ index\ of\ the\ location\ of\ the\ next\ tank\ to\ be\ filled\n\ \ Postcondition\:\ the\ state\ of\ the\ robot\ has\ not\ changed\n
+comment1.params=locIndex
+comment1.target=void\ moveToLocation(int)
+comment1.text=\ Moves\ the\ robot\ to\ location\ locIndex.\n\ \ @param\ locIndex\ the\ index\ of\ the\ location\ of\ the\ tank\ to\ move\ to\n\ \ \ \ \ \ \ \ \ Precondition\:\ 0\ <\=\ locIndex\ <\ tanks.size()\n\ \ Postcondition\:\ the\ current\ location\ of\ the\ robot\ is\ locIndex\n
+numComments=2

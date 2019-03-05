@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getCurrentIndex()
+comment0.text=@return\ the\ index\ of\ the\ current\ location\ of\ the\ robot
+comment1.params=
+comment1.target=boolean\ isFacingRight()
+comment1.text=\ Determine\ whether\ the\ robot\ is\ currently\ facing\ to\ the\ right\n\ \ @return\ true\ if\ the\ robot\ is\ facing\ to\ the\ right\ (toward\ tanks\ with\ larger\ indexes)\n\ \ \ \ \ \ \ \ \ false\ if\ the\ robot\ is\ facing\ to\ the\ left\ (toward\ tanks\ with\ smaller\ indexes)\n
+comment2.params=
+comment2.target=void\ changeDirection()
+comment2.text=Changes\ the\ current\ direction\ of\ the\ robot
+comment3.params=numLocs
+comment3.target=void\ moveForward(int)
+comment3.text=\ Moves\ the\ robot\ in\ its\ current\ direction\ by\ the\ number\ of\ locations\ specified.\n\ \ @param\ numLocs\ the\ number\ of\ locations\ to\ move.\ A\ value\ of\ 1\ moves\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ robot\ to\ the\ next\ location\ in\ the\ current\ direction.\n\ \ \ \ \ \ \ \ Precondition\:\ numLocs\ >\ 0\n
+numComments=4

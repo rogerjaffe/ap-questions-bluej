@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=wordArr
+comment0.target=WordScrambler(java.lang.String[])
+comment0.text=\ @param\ wordArr\ an\ array\ of\ String\ objects\n\ Precondition\:\ wordArr.length\ is\ even\n
+comment1.params=word1\ word2
+comment1.target=java.lang.String\ recombine(java.lang.String,\ java.lang.String)
+comment1.text=\ @param\ word1\ a\ String\ of\ characters\n\ @param\ word2\ a\ String\ of\ characters\n\ @return\ a\ String\ that\ contains\ the\ first\ half\ of\ word1\ and\ the\ second\ half\ of\ word2\n
+comment2.params=words
+comment2.target=java.lang.String[]\ mixedWords(java.lang.String[])
+comment2.text=\ @param\ words\ an\ array\ of\ String\ objects\n\ Precondition\:\ words.length\ is\ even\n\ @return\ an\ array\ of\ String\ objects\ created\ by\ recombining\ pairs\ of\ strings\ in\ array\ words\n\ Postcondition\:\ the\ length\ of\ the\ returned\ array\ is\ words.length\n
+comment3.params=word1\ word2
+comment3.target=java.lang.String\ _recombine(java.lang.String,\ java.lang.String)
+comment3.text=TESTING\ ***********************
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

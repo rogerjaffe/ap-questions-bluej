@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=title
+comment0.target=DownloadInfo(java.lang.String)
+comment0.text=\ Creates\ a\ new\ instance\ with\ the\ given\ unique\ title\ and\ sets\ the\n\ \ number\ of\ times\ downloaded\ to\ 1.\n\ \ @param\ title\ the\ unique\ title\ of\ the\ downloaded\ song\n
+comment1.params=
+comment1.target=java.lang.String\ getTitle()
+comment1.text=@return\ the\ title
+comment2.params=
+comment2.target=void\ incrementTimesDownloaded()
+comment2.text=Increment\ the\ number\ times\ downloaded\ by\ 1
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

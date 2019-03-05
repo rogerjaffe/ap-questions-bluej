@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=playerCount
+comment0.target=TokenPass(int)
+comment0.text=\ Creates\ the\ board\ array\ to\ be\ of\ size\ playerCount\ and\ fills\ it\ with\n\ \ random\ integer\ values\ from\ 1\ to\ 10,\ inclusive.\ Initializes\ currentPlayer\ to\ a\n\ \ random\ integer\ value\ in\ the\ range\ between\ 0\ and\ playerCount-1,\ inclusive.\n\ \ @param\ playerCount\ the\ number\ of\ players\n
+comment1.params=
+comment1.target=void\ distributeCurrentPlayerTokens()
+comment1.text=\ Distributes\ the\ tokens\ from\ the\ current\ player's\ position\ one\ at\ a\ time\ to\ each\ player\ in\n\ \ the\ game.\ Distribution\ begins\ with\ the\ next\ position\ and\ continues\ until\ all\ the\ tokens\n\ \ have\ been\ distributed.\ If\ there\ are\ still\ tokens\ to\ distribute\ when\ the\ player\ at\ the\n\ \ highest\ position\ is\ reached,\ the\ next\ token\ will\ be\ distributed\ to\ the\ player\ at\ position\ 0.\n\ \ Precondition\:\ the\ current\ player\ has\ at\ least\ one\ token.\n\ \ Postcondition\:\ the\ current\ player\ has\ not\ changed.\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=
+numComments=3

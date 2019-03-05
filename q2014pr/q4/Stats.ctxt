@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Stats()
+comment1.params=score
+comment1.target=boolean\ record(int)
+comment1.text=\ Records\ a\ score\ in\ the\ database,\ keeping\ the\ database\ in\ increasing\ score\ order.\ If\ no\ other\n\ ScoreInfo\ object\ represents\ score,\ a\ new\ ScoreInfo\ object\ representing\ score\n\ is\ added\ to\ the\ database;\ otherwise,\ the\ frequency\ in\ the\ ScoreInfo\ object\ representing\n\ score\ is\ incremented.\n\ @param\ score\ a\ score\ to\ be\ recorded\ in\ the\ list\n\ @return\ true\ if\ a\ new\ ScoreInfo\ object\ representing\ score\ was\ added\ to\ the\ list;\n\ false\ otherwise\n
+comment2.params=stuScores
+comment2.target=void\ recordScores(int[])
+comment2.text=\ Records\ all\ scores\ in\ stuScores\ in\ the\ database,\ keeping\ the\ database\ in\ increasing\ score\ order\n\ @param\ stuScores\ an\ array\ of\ student\ test\ scores\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getScoreList()
+comment3.text=TESTING\ ***********************
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

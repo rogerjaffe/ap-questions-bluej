@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=numRows\ numCols\ scanned
+comment0.target=SkyView(int,\ int,\ double[])
+comment0.text=\ Constructs\ a\ SkyView\ object\ from\ a\ 1-dimensional\ array\ of\ scan\ data.\n\ \ @param\ numRows\ the\ number\ of\ rows\ represented\ in\ the\ view\n\ \ \ \ \ \ \ \ \ Precondition\:\ numRows\ >\ 0\n\ \ @param\ numCols\ the\ number\ of\ columns\ represented\ in\ the\ view\n\ \ \ \ \ \ \ \ \ Precondition\:\ numCols\ >\ 0\n\ \ @param\ scanned\ the\ scan\ data\ received\ from\ the\ telescope,\ stored\ in\ telescope\ order\n\ \ \ \ \ \ \ \ \ Precondition\:\ scanned.length\ \=\=\ numRows\ *\ numCols\n\ \ Postcondition\:\ view\ has\ been\ created\ as\ a\ rectangular\ 2-dimensional\ array\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ with\ numRows\ rows\ and\ numCols\ columns\ and\ the\ values\ in\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scanned\ have\ been\ copied\ to\ view\ and\ are\ ordered\ as\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ the\ original\ rectangular\ area\ of\ sky.\n
+comment1.params=startRow\ endRow\ startCol\ endCol
+comment1.target=double\ getAverage(int,\ int,\ int,\ int)
+comment1.text=\ Returns\ the\ average\ of\ the\ values\ in\ a\ rectangular\ section\ of\ view.\n\ \ @param\ startRow\ the\ first\ row\ index\ of\ the\ section\n\ \ @param\ endRow\ the\ last\ row\ index\ of\ the\ section\n\ \ @param\ startCol\ the\ first\ column\ index\ of\ the\ section\n\ \ @param\ endCol\ the\ last\ column\ index\ of\ the\ section\n\ \ Precondition\:\ 0\ <\=\ startRow\ <\=\ endRow\ <\ view.length\n\ \ Precondition\:\ 0\ <\=\ startCol\ <\=\ endCol\ <\ view[0].length\n\ \ @return\ the\ average\ of\ the\ values\ in\ the\ specified\ section\ of\ view\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=
+numComments=3
