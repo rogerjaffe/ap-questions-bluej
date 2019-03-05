@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MasterOrder()
+comment0.text=Constructs\ a\ new\ MasterOrder\ object.
+comment1.params=theOrder
+comment1.target=void\ addOrder(CookieOrder)
+comment1.text=\ Adds\ theOrder\ to\ the\ master\ order.\n\ \ @param\ theOrder\ the\ cookie\ order\ to\ add\ to\ the\ master\ order\n
+comment2.params=
+comment2.target=int\ getTotalBoxes()
+comment2.text=\ @return\ the\ sum\ of\ the\ number\ of\ boxes\ of\ all\ of\ the\ cookie\ orders\n
+comment3.params=cookieVar
+comment3.target=int\ removeVariety(java.lang.String)
+comment3.text=\ Removes\ all\ cookie\ orders\ from\ the\ master\ order\ that\ have\ the\ same\ variety\ of\n\ \ cookie\ as\ cookieVar\ and\ returns\ the\ total\ number\ of\ boxes\ that\ were\ removed.\n\ \ @param\ cookieVar\ the\ variety\ of\ cookies\ to\ remove\ from\ the\ master\ order\n\ \ @return\ the\ total\ number\ of\ boxes\ of\ cookieVar\ in\ the\ cookie\ orders\ removed\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ \ //\ Alternative\ solution\ with\ an\ iterator\n\ \ //\ \ \ (not\ in\ the\ AP\ subset)\n\n\ \ public\ int\ removeVariety(String\ cookieVar)\n\ \ {\n\ \ \ \ int\ total\ \=\ 0;\n\ \ \ \ Iterator<CookieOrder>\ iter\ \=\ orders.iterator();\n\n\ \ \ \ while\ (iter.hasNext())\n\ \ \ \ {\n\ \ \ \ \ \ CookieOrder\ o\ \=\ iter.next();\n\ \ \ \ \ \ if\ (o.getVariety().equals(cookieVar))\n\ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ total\ +\=\ o.getNumBoxes();\n\ \ \ \ \ \ \ \ iter.remove();\n\ \ \ \ \ \ }\n\ \ \ \ }\n\ \ \ \ return\ total;\n\ \ }\n
+numComments=5
