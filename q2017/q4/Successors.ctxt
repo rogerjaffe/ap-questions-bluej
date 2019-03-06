@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=num\ intArr
-comment0.target=Position\ findPosition(int,\ int[][])
-comment0.text=Part\ (a)\ ***************
-comment1.params=intArr
-comment1.target=Position[][]\ getSuccessorArray(int[][])
-comment1.text=Part\ (b)\ ***************
-numComments=2

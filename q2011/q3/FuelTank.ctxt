@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=int\ getFuelLevel()
-comment0.text=@return\ an\ integer\ value\ that\ ranges\ from\ 0\ (empty)\ to\ 100\ (full)
-numComments=1
